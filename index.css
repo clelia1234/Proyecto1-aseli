@@ -392,6 +392,7 @@ footer .container{
 
     #contacto img{
         justify-content: flex-end;
+        height:60px;
     }
 
     footer .container{
@@ -403,4 +404,5 @@ footer .container{
     #final{
         background-position-x: calc(100vw - 800px);
     }
+
 }
