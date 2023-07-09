@@ -390,6 +390,10 @@ footer .container{
         font-size: 5em;
     }
 
+    #contacto img{
+        justify-content: flex-end;
+    }
+
     footer .container{
         justify-content: flex-end;
     }
