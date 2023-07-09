@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+   }
+
+
+h2{font-size: 8em;}
+h3{font-size: 4em;}
+p{font-size: 3em;}
+ul{list-style: none;}
+li{font-size: 4em;}
+
+button{
+    font-size: 4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border:2px solid 2px 2px 10px black;
+    color: black;
+    background-color: goldenrod;
+    
+}
+
+button:hover{
+    background-color: white;
+}
+
+.container{
+   max-width: 1400px;
+      
+   
+}
+
+header{
+    background-color: black;
+
+}
+
+header .logo{
+    margin: 0px;
+     padding: 25px 30px;
+     display: flex;
+     
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+      
+               
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(162, 126, 34);
+    font-size: 5em;
+    padding: 200px 100px;
+    margin-right: 20%;
+    margin-left: 10%;
+    
+      
+}
+
+header a:hover{
+    color:rgb(182, 176, 158);
+
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url(dama1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+#hero h1{
+    color: white;
+    
+}
+
+#hero button{
+    font-size: 5em;
+}
+
+#somos .container{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+#nuestros-servicios{
+    background-color: rgb(63, 60, 60);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+#nuestros-servicios .container{
+   margin: 0;
+   height: 60vh;
+   
+}
+
+#nuestros-servicios h2{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#nuestros-servicios p{
+    display:none
+    margin: bottom 50px;
+    font-size:3em;
+    text-align: justify;
+    
+
+}
+
+#nuestros-servicios .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 70px;
+    border-radius: 15px;
+  
+   
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("asesoria.jpg");
+   
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("defensa.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("compliance.jpg");
+
+}
+
+#final .container{
+    
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+    padding: 250px 12px;
+}
+
+#final li{
+    margin: 16px 0px;
+    font-weight: bold;
+    height: 2vh;
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 40vh;
+}
+
+
+#contacto button{
+    font-size: 5em;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 8em;
+    }
+
+    #somos .container{
+        
+        display: flex;
+        justify-content: space-evenly;
+        margin:0px;
+    }
+
+    #somos .texto{
+        
+      height: 100%;
+       width: 100%;
+      max-width: 600px;
+      padding-left: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+           
+              
+    }
+
+    #somos h2{
+        margin:0px;
+    }
+
+    #somos p{
+        margin: 0px;
+        text-align: justify;
+    }
+    
+
+    #somos .img-container{
+        background-image: url("abogados.jpg");
+        background-size:cover;
+        background-position: center center;
+        height: 900px;
+        width: 800px;
+        padding: 500px 1000px
+        
+     
+       
+    }
+  
+    #nuestros-servicios .servicios{
+        display:flex;
+        justify-content: center;
+    }
+
+    #nuestros-servicios p{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 2em;
+        
+      
+    }
+
+    #nuestros-servicios h2{
+        font-size: 8em;
+        text-align: center;
+        
+    }
+
+    #nuestros-servicios h3{
+        margin-inline-end: 0%;
+    }
+
+    #nuestros-servicios .carta{
+        padding: 100px;
+        background-size: 80% 250px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 8px 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .carta:first-child{
+        
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("asesoria.jpg");
+
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("defensa.jpg");
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("compliance.jpgç");
+
+    }
+
+    #final{
+        background-image: url("valores.jpg");
+        background-repeat: no-repeat;
+        background-size: 700px 600px;
+        margin-right: 0;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #final .container{
+      text-align: initial;
+    }
+
+    #final ul{
+        margin-left: 100px;
+    }
+
+    #contacto h2{
+        font-size: 8em;
+        text-align: end;
+    }
+    #contacto input{
+        font-size: 100px;
+    }
+
+    #contacto button{
+        font-size: 5em;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1200px) {
+    #final{
+        background-position-x: calc(100vw - 800px);
+    }
+}
