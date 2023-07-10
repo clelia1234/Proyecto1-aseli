@@ -124,3 +124,6 @@ en figure se usa:
             544 telefonos
 
             cheatseat(comandos)
+
+
+    cualquier cambio
