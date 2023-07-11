@@ -46,8 +46,8 @@ header{
 }
 
 header .logo{
-    margin: 20px;
-     padding: 25px 30px;
+    margin: 10px;
+     padding: 15px 15px;
      display: flex;
      
 }
@@ -70,8 +70,8 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: rgb(162, 126, 34);
-    font-size: 5em;
-    padding: 200px 100px;
+    font-size: 3em;
+    padding: 100px 50px;
     margin-right: 20%;
     margin-left: 10%;
     
@@ -89,7 +89,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 60vh;
+    height: 30vh;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
     ,url(dama1.jpg);
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ header a:hover{
 }
 
 #hero button{
-    font-size: 5em;
+    font-size: 2.5em;
 }
 
 #somos .container{
@@ -130,19 +130,19 @@ align-items: center;
 
 #nuestros-servicios .container{
    margin: 0;
-   height: 60vh;
+   height: 30vh;
    
 }
 
 #nuestros-servicios h2{
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-top: 20px;
+    padding-top: 200px;
 }
 
 #nuestros-servicios p{
     display:none;
-    margin: bottom 50px;
-    font-size:3em;
+    margin: bottom 20px;
+    font-size:1.5em;
     text-align: justify;
     
 
