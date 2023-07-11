@@ -307,14 +307,14 @@ footer .container{
 
     #nuestros-servicios p{
         display: block;
-        margin-bottom: 30px;
-        font-size: 2em;
+        margin-bottom: 15px;
+        font-size: 1em;
         
       
     }
 
     #nuestros-servicios h2{
-        font-size: 8em;
+        font-size: 4em;
         text-align: center;
         
     }
@@ -324,8 +324,8 @@ footer .container{
     }
 
     #nuestros-servicios .carta{
-        padding: 100px;
-        background-size: 80% 250px;
+        padding: 50px;
+        background-size: 80% 150px;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
@@ -365,9 +365,9 @@ footer .container{
     #final{
         background-image: url("valores.jpg");
         background-repeat: no-repeat;
-        background-size: 700px 600px;
+        background-size: 300px 300px;
         margin-right: 0;
-        background-position: calc(100vw - 500px) 120px;
+        background-position: calc(50vw - 250px) 60px;
     }
 
     #final .container{
@@ -375,25 +375,25 @@ footer .container{
     }
 
     #final ul{
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     #contacto h2{
-        font-size: 8em;
+        font-size: 4em;
         text-align: end;
     }
     #contacto input{
-        font-size: 100px;
+        font-size: 50px;
     }
 
     #contacto button{
-        font-size: 5em;
+        font-size: 2.5em;
     }
 
     #contacto img{
         display:flex;
         justify-content: center;
-        height:60px;
+        height:30px;
     }
 
     footer .container{
@@ -402,9 +402,9 @@ footer .container{
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
     #final{
-        background-position-x: calc(100vw - 800px);
+        background-position-x: calc(50vw - 400px);
     }
 
 }
