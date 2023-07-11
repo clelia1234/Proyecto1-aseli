@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
     
 }
 
@@ -13,17 +14,17 @@ body{
    }
 
 
-h2{font-size: 3em;}
-h3{font-size: 2em;}
-p{font-size: 1.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1em;}
+p{font-size: 1em;}
 ul{list-style: none;}
-li{font-size: 2em;}
+li{font-size: 1em;}
 
 button{
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
-    padding: 5px 15px;
-    border-radius: 10px;
+    padding: 3px 6px;
+    border-radius: 5px;
     border:1px solid 1px 1px 5px black;
     color: black;
     background-color: goldenrod;
@@ -36,19 +37,22 @@ button:hover{
 
 .container{
    max-width: 1400px;
+   margin: auto;
       
    
 }
 
 header{
     background-color: black;
+   
 
 }
 
 header .logo{
-    margin: 10px;
-     padding: 15px 15px;
-     display: flex;
+    margin:0;
+    display: flex;
+     height: 150px;
+    
      
 }
 
@@ -56,6 +60,7 @@ header .container{
     display:flex;
     align-items: center;
     flex-direction: column;
+    
       
                
 }
@@ -63,6 +68,7 @@ header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-right: 50px;
     
 }
 
@@ -70,8 +76,8 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: rgb(162, 126, 34);
-    font-size: 3em;
-    padding: 100px 50px;
+    font-size: 1.5em;
+    padding: 5px 12px;
     margin-right: 20%;
     margin-left: 10%;
     
@@ -89,7 +95,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 30vh;
+    height: 50vh;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
     ,url(dama1.jpg);
     background-repeat: no-repeat;
@@ -105,7 +111,7 @@ header a:hover{
 }
 
 #hero button{
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 #somos .container{
@@ -114,6 +120,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
+padding: 200px 12px;
 
 
 }
@@ -130,19 +137,20 @@ align-items: center;
 
 #nuestros-servicios .container{
    margin: 0;
-   height: 30vh;
+   height: 35vh;
+   padding: 150px 12px;
    
 }
 
 #nuestros-servicios h2{
-    margin-top: 20px;
-    padding-top: 200px;
+    margin-top: 0px;
+
 }
 
 #nuestros-servicios p{
     display:none;
-    margin: bottom 20px;
-    font-size:1.5em;
+    margin: bottom 10px;
+    font-size:1em;
     text-align: justify;
     
 
@@ -152,7 +160,7 @@ align-items: center;
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
-    margin: 70px;
+    margin: 30px;
     border-radius: 15px;
   
    
@@ -194,11 +202,11 @@ align-items: center;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-    padding: 100px 6px;
+    padding: 50px 3px;
 }
 
 #final li{
-    margin: 8px 0px;
+    margin: 4px 0px;
     font-weight: bold;
     height: 1vh;
 }
@@ -211,12 +219,12 @@ align-items: center;
     text-align: center;
     background-color: rgb(30,30,30);
     color: white;
-    height: 20vh;
+    height: 30vh;
 }
 
 
 #contacto button{
-    font-size: 2em;
+    font-size: 1em;
 }
 
 footer{
@@ -225,21 +233,21 @@ footer{
 
 footer p{
     margin: 0;
-    padding: 6px;
+    padding: 3px;
     color: rgb(100,100,100);
 }
 
 footer .container{
-    height: 70px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-@media (min-width: 350px){
+@media (min-width: 50px){
     header{
         position: fixed;
-        width: 100%;
+        width: 50%;
     }
 
     header .container{
@@ -250,11 +258,11 @@ footer .container{
     header nav{
         flex-direction: row;
         padding-bottom: 0;
-        padding-right: 10px;
+        padding-right: 5px;
     }
 
     #hero h1{
-        font-size: 4em;
+        font-size: 2em;
     }
 
     #somos .container{
@@ -268,7 +276,7 @@ footer .container{
         
       height: 100%;
        width: 100%;
-      max-width: 300px;
+      max-width: 150px;
       padding-left: 0px;
       display: flex;
       flex-direction: column;
@@ -292,9 +300,9 @@ footer .container{
         background-image: url("abogados.jpg");
         background-size:cover;
         background-position: center center;
-        height: 400px;
-        width: 300px;
-        padding: 200px 400px
+        height: 200px;
+        width: 150px;
+        padding: 100px 200px
         
      
        
@@ -307,14 +315,14 @@ footer .container{
 
     #nuestros-servicios p{
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
         font-size: 1em;
         
       
     }
 
     #nuestros-servicios h2{
-        font-size: 4em;
+        font-size: 2em;
         text-align: center;
         
     }
@@ -324,12 +332,12 @@ footer .container{
     }
 
     #nuestros-servicios .carta{
-        padding: 50px;
-        background-size: 80% 150px;
+        padding: 15px;
+        background-size: 20% 50px;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
-        box-shadow: 8px 20px 40px rgba(0,0,0,0.5);
+        box-shadow: 4px 10px 20px rgba(0,0,0,0.5);
     }
 
     .carta:first-child{
@@ -365,9 +373,9 @@ footer .container{
     #final{
         background-image: url("valores.jpg");
         background-repeat: no-repeat;
-        background-size: 300px 300px;
+        background-size: 150px 150px;
         margin-right: 0;
-        background-position: calc(50vw - 250px) 60px;
+        background-position: calc(25vw - 150px) 30px;
     }
 
     #final .container{
@@ -375,25 +383,25 @@ footer .container{
     }
 
     #final ul{
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     #contacto h2{
-        font-size: 4em;
+        font-size: 2em;
         text-align: end;
     }
     #contacto input{
-        font-size: 50px;
+        font-size: 25px;
     }
 
     #contacto button{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     #contacto img{
         display:flex;
         justify-content: center;
-        height:30px;
+        height:15px;
     }
 
     footer .container{
@@ -402,9 +410,9 @@ footer .container{
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 300px) {
     #final{
-        background-position-x: calc(50vw - 400px);
+        background-position-x: calc(25vw - 200px);
     }
 
 }
