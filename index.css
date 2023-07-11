@@ -194,13 +194,13 @@ align-items: center;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-    padding: 250px 12px;
+    padding: 100px 6px;
 }
 
 #final li{
-    margin: 16px 0px;
+    margin: 8px 0px;
     font-weight: bold;
-    height: 2vh;
+    height: 1vh;
 }
 
 #contacto{
@@ -211,12 +211,12 @@ align-items: center;
     text-align: center;
     background-color: rgb(30,30,30);
     color: white;
-    height: 40vh;
+    height: 20vh;
 }
 
 
 #contacto button{
-    font-size: 5em;
+    font-size: 2em;
 }
 
 footer{
