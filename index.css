@@ -13,17 +13,17 @@ body{
    }
 
 
-h2{font-size: 3em;
+h2{font-size: 1.5em;
 text-align: center;}
-h3{font-size: 3em;}
-p{font-size: 2em;}
+h3{font-size: 1.5em;}
+p{font-size: 1em;}
 ul{list-style: none;}
-li{font-size: 3em;}
+li{font-size: 1.5em;}
 
 button{
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
-    padding: 3px 6px;
+    padding: 10px 10px;
     border-radius: 15px;
     border:2px solid 1px 1px 5px black;
     color: black;
@@ -51,7 +51,7 @@ header{
 header .logo{
     margin:0;
     display: flex;
-     height: 150px;
+     height: 80px;
     
      
 }
@@ -60,26 +60,22 @@ header .container{
     display:flex;
     align-items: center;
     flex-direction: column;
-    
-    
-                    
+                      
 }
 header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 3.5em;
-    padding-left: 9em;
-    
-    
-    
+    padding-top: 1.5em;
+    padding-left: 5em;
+      
 }
 
 header a{
     text-decoration: none;
     font-weight: bold;
     color: rgb(162, 126, 34);
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 5px 12px;
     margin-right: 20%;
     margin-left: 10%;
@@ -109,23 +105,20 @@ header a:hover{
 
 #hero h1{
     color: white;
-    padding-bottom: 1.5em;
     padding-top: 1.5em;
-    padding-left: 1.5em;
-  padding-left: 0px;
-  padding-right: 200px;
-  
+    padding-left: 2em;
+  padding-left: 3em;
     
 }
 
 #hero button{
-    font-size: 3em;
+    font-size: 1em;
 }
 
 #somos .container{
 
 align-items: center;
-padding: 50px 0px;
+padding: 30px 0px;
 display: flex;
 background-color: gainsboro;
 justify-content:space-around;
@@ -145,14 +138,13 @@ margin-inline-end: 0%;
 
 #nuestros-servicios .container{
    margin: 0px;
-   height: 49vh;
-   
-   
+   height: 39vh;
+     
 }
 
 #nuestros-servicios h2{
    
-    padding: 19px;
+    padding: 10px;
     text-align: center;
     color: black;
     background-color: gray;
@@ -162,17 +154,17 @@ margin-inline-end: 0%;
 
 #nuestros-servicios p{
     display:none;
-    margin: bottom 30px;
+    margin: bottom 10px;
     text-align: justify;
-    padding: 50px 50px;
+    padding: 25px 25px;
     
 }
 
 #nuestros-servicios .carta{
 
     background-size: cover;
-    padding: 50px;
-    margin: 30px;
+    padding: 25px;
+    margin: 15px;
     border-radius: 15px;
     text-align: center;
   
@@ -214,14 +206,15 @@ margin-inline-end: 0%;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
- padding: 150px 30px;
+ padding: 90px 15px;
  background-color: gainsboro;
 }
 
 #final li{
-    margin: 4px 0px;
+    margin: 2px 0px;
     font-weight: bold;
-    height: 3.5vh;
+    height: 7vh;
+    padding-top: 3em;
 }
 
 #contacto{
@@ -233,13 +226,15 @@ align-items: center;
     background-color: rgb(30,30,30);
     color: white;
     height: 50vh;
+    padding-top: 8em;
+    padding-bottom: 8em;
         
 }
 
 
 #contacto button{
     font-size: 3em;
-    margin: 75px;
+    margin: 15px;
 }
 
 footer{
@@ -248,12 +243,12 @@ footer{
 
 footer p{
     margin: 0px;
-    padding: 5em 5em 5em;
+    padding: 15em 5em 5em;
     color: rgb(100,100,100);
 }
 
 footer .container{
-    height: 150px;
+    height: 3px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -279,7 +274,7 @@ background-color: gainsboro;
     }
 
     #hero h1{
-        font-size: 5em;
+        font-size: 3em;
        
     }
 
@@ -291,8 +286,7 @@ background-color: gainsboro;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 0;
-                
+      margin: 0;     
               
     }
 
@@ -305,7 +299,6 @@ background-color: gainsboro;
 
     }
     
-
     #somos .img-container{
         background-image: url("abogados.jpg");
         background-size:cover;
@@ -326,10 +319,10 @@ background-color: gainsboro;
 
     #nuestros-servicios p{
         display: block;
-        font-size: 2em;
-        padding-top: 150px;
-        
-      }
+        font-size: 1em;
+        padding-top: 100px;
+        padding-bottom: 1px;
+        }
 
     
     #nuestros-servicios h3{
@@ -380,7 +373,7 @@ background-color: gainsboro;
     #final{
         background-image: url("valores.jpg");
         background-repeat: no-repeat;
-        background-size: 500px 500px;
+        background-size: 100px 100px;
         margin-right: 0;
         background-position: calc(25vw - 150px) 30px;
     }
@@ -394,13 +387,14 @@ background-color: gainsboro;
     }
 
     #contacto h2{
-        font-size: 4em;
+        font-size: 2em;
         text-align: end;
-        padding-bottom: 150px;
+        padding-bottom: 5px;
     }
     #contacto input{
-        font-size: 25px;
+        font-size: 20px;
         padding-top: 10px;
+        margin: 15px;
     }
 
     #contacto button{
@@ -409,7 +403,7 @@ background-color: gainsboro;
 
     #contacto img{
         display:flex;
-        justify-content: center;
+        justify-content: space-between;
         height:30px;
         flex-direction: column;
     }
