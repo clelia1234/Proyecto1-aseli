@@ -9,7 +9,7 @@ html{
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  background-color: gainsboro;
    }
 
 
@@ -21,11 +21,11 @@ ul{list-style: none;}
 li{font-size: 3em;}
 
 button{
-    font-size: 1em;
+    font-size: 2em;
     font-weight: bold;
     padding: 3px 6px;
-    border-radius: 5px;
-    border:1px solid 1px 1px 5px black;
+    border-radius: 15px;
+    border:2px solid 1px 1px 5px black;
     color: black;
     background-color: goldenrod;
     
@@ -36,8 +36,8 @@ button:hover{
 }
 
 .container{
-   max-width: 1400px;
-   background-color: goldenrod;
+   max-width: 2400px;
+   background-color: gainsboro;
       
    
 }
@@ -84,7 +84,6 @@ header a{
     margin-right: 20%;
     margin-left: 10%;
     
-      
 }
 
 header a:hover{
@@ -128,14 +127,14 @@ header a:hover{
 align-items: center;
 padding: 50px 0px;
 display: flex;
-background-color: gray;
+background-color: gainsboro;
 justify-content:space-around;
 margin-inline-end: 0%;
 
 }
 
 #nuestros-servicios{
-    background-color: rgb(110, 106, 106);
+    background-color: gray;
     color: white;
     align-items: center;
     justify-content: space-between;
@@ -145,30 +144,37 @@ margin-inline-end: 0%;
 }
 
 #nuestros-servicios .container{
-   margin: 0;
-   height: 50vh;
-   padding: 50px 50px;
+   margin: 0px;
+   height: 49vh;
+   
    
 }
 
 #nuestros-servicios h2{
-    margin-top: 0px;
+   
+    padding: 19px;
+    text-align: center;
+    color: black;
+    background-color: gray;
+ 
 
 }
 
 #nuestros-servicios p{
     display:none;
-    margin: bottom 20px;
+    margin: bottom 30px;
     text-align: justify;
+    padding: 50px 50px;
     
 }
 
 #nuestros-servicios .carta{
-    background-position: center center;
+
     background-size: cover;
-    padding: 50px 0px;
+    padding: 50px;
     margin: 30px;
     border-radius: 15px;
+    text-align: center;
   
    
 }
@@ -180,9 +186,8 @@ margin-inline-end: 0%;
         rgba(0,0,0,0.5)
     )
     ,url("asesoria.jpg");
-   
 
-}
+ }
 
 .carta:nth-child(2){
     background-image: linear-gradient(
@@ -210,6 +215,7 @@ flex-direction: row;
 justify-content: space-around;
 align-items: center;
  padding: 150px 30px;
+ background-color: gainsboro;
 }
 
 #final li{
@@ -227,11 +233,13 @@ align-items: center;
     background-color: rgb(30,30,30);
     color: white;
     height: 50vh;
+        
 }
 
 
 #contacto button{
     font-size: 3em;
+    margin: 75px;
 }
 
 footer{
@@ -239,8 +247,8 @@ footer{
 }
 
 footer p{
-    margin: 0;
-    padding: 3px;
+    margin: 0px;
+    padding: 5em 5em 5em;
     color: rgb(100,100,100);
 }
 
@@ -249,9 +257,10 @@ footer .container{
     display: flex;
     justify-content: center;
     align-items:center;
+background-color: gainsboro;
 }
 
-@media (min-width: 30px){
+@media (min-width: 60px){
     header{
         position: fixed;
         width: 100%;
@@ -283,8 +292,7 @@ footer .container{
       flex-direction: column;
       justify-content: center;
       margin: 0;
-     
-                 
+                
               
     }
 
@@ -293,6 +301,7 @@ footer .container{
       margin-left: 20px;
       margin-right: 20px;
     text-align: justify;
+    padding-top: 20px;
 
     }
     
@@ -312,26 +321,25 @@ footer .container{
     #nuestros-servicios .servicios{
         display:flex;
         justify-content: center;
+        background-color: gray;
     }
 
     #nuestros-servicios p{
         display: block;
-        margin-bottom: 16px;
-        font-size: 1em;
+        font-size: 2em;
+        padding-top: 150px;
         
-      
-    }
+      }
 
-      
     
-
     #nuestros-servicios h3{
-        margin-inline-end: 0%;
+      padding-top: 50px;
+      padding-bottom: 0px;
     }
 
     #nuestros-servicios .carta{
         padding: 15px;
-        background-size: 20% 50px;
+        background-size: 100% 40%;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
@@ -362,7 +370,8 @@ footer .container{
         background-image: linear-gradient(
             0deg,
             rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
+            rgba(0,0,0,0.5);
+            background-size: 50%
         )
         ,url("compliance.jpgç");
 
@@ -371,7 +380,7 @@ footer .container{
     #final{
         background-image: url("valores.jpg");
         background-repeat: no-repeat;
-        background-size: 150px 150px;
+        background-size: 500px 500px;
         margin-right: 0;
         background-position: calc(25vw - 150px) 30px;
     }
@@ -385,11 +394,13 @@ footer .container{
     }
 
     #contacto h2{
-        font-size: 2em;
+        font-size: 4em;
         text-align: end;
+        padding-bottom: 150px;
     }
     #contacto input{
         font-size: 25px;
+        padding-top: 10px;
     }
 
     #contacto button{
@@ -399,7 +410,8 @@ footer .container{
     #contacto img{
         display:flex;
         justify-content: center;
-        height:15px;
+        height:30px;
+        flex-direction: column;
     }
 
     footer .container{
@@ -410,7 +422,7 @@ footer .container{
 
 @media (min-width: 300px) {
     #final{
-        background-position-x: calc(25vw - 200px);
+        background-position-x: calc(15vw - 100px);
     }
 
 }
