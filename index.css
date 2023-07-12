@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    
+       
 }
 
 html{
@@ -10,15 +9,16 @@ html{
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:0;
+  
    }
 
 
-h2{font-size: 2em;}
-h3{font-size: 1em;}
-p{font-size: 1em;}
+h2{font-size: 3em;
+text-align: center;}
+h3{font-size: 3em;}
+p{font-size: 2em;}
 ul{list-style: none;}
-li{font-size: 1em;}
+li{font-size: 3em;}
 
 button{
     font-size: 1em;
@@ -37,7 +37,6 @@ button:hover{
 
 .container{
    max-width: 1400px;
-   margin: auto;
       
    
 }
@@ -46,7 +45,6 @@ header{
     background-color: black;
 
    
-
 }
 
 header .logo{
@@ -63,13 +61,15 @@ header .container{
     flex-direction: column;
     
     
-      
-               
+                    
 }
 header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 3.5em;
+    padding-left: 9em;
+    
     
     
 }
@@ -109,6 +109,8 @@ header a:hover{
 
 #hero h1{
     color: white;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
     
 }
 
@@ -118,14 +120,10 @@ header a:hover{
 
 #somos .container{
 
-display: flex;
-flex-direction: row;
-justify-content: space-around;
 align-items: center;
-padding: 50px 15px;
-margin: 0%;
-
-
+padding: 50px 0px;
+display: flex;
+justify-content: space-evenly;
 }
 
 #nuestros-servicios{
@@ -242,59 +240,52 @@ footer p{
 footer .container{
     height: 150px;
     display: flex;
-    justify-content: center center;
+    justify-content: center;
     align-items:center;
 }
 
 @media (min-width: 50px){
     header{
         position: fixed;
-        width: 50%;
+        width: 200%;
     }
 
     header .container{
         flex-direction: row;
         justify-content: space-between;
+        
     }
 
     header nav{
         flex-direction: row;
         padding-bottom: 0;
-        padding-right: 0px;
+      
+
     }
 
     #hero h1{
         font-size: 5em;
     }
 
-    #somos .container{
-        
-        display: flex;
-        justify-content: space-evenly;
-        margin:0px;
-    }
-
     #somos .texto{
         
-      height: 100%;
-       width: 400%;
-      max-width: 300px;
-      padding-left: 0px;
+      max-width: 1000px;
+      padding-left: 8em;
+      padding-right: 8em;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 0px;
-           
+      margin: 0;
+                 
               
     }
 
-    #somos h2{
-        margin:0px;
-    }
-
+ 
     #somos p{
-        margin: 0px;
-        text-align: justify;
+      margin-left: 20px;
+      margin-right: 20px;
+    text-align: justify;
+
     }
     
 
@@ -302,12 +293,12 @@ footer .container{
         background-image: url("abogados.jpg");
         background-size:cover;
         background-position: center center;
-        height: 200px;
-        width: 150px;
-        padding: 100px 200px
+        height: 400px;
+        width: 250px;
+        padding: 150px 250px;
+        margin-left: 50px;
         
-     
-       
+           
     }
   
     #nuestros-servicios .servicios{
@@ -317,17 +308,14 @@ footer .container{
 
     #nuestros-servicios p{
         display: block;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         font-size: 1em;
         
       
     }
 
-    #nuestros-servicios h2{
-        font-size: 2em;
-        text-align: center;
-        
-    }
+      
+    
 
     #nuestros-servicios h3{
         margin-inline-end: 0%;
