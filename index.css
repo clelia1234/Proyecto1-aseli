@@ -44,6 +44,7 @@ button:hover{
 
 header{
     background-color: black;
+
    
 
 }
@@ -61,6 +62,7 @@ header .container{
     align-items: center;
     flex-direction: column;
     
+    
       
                
 }
@@ -68,7 +70,7 @@ header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-right: 50px;
+    
     
 }
 
@@ -111,7 +113,7 @@ header a:hover{
 }
 
 #hero button{
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 #somos .container{
@@ -120,13 +122,14 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-padding: 200px 12px;
+padding: 50px 15px;
+margin: 0%;
 
 
 }
 
 #nuestros-servicios{
-    background-color: rgb(63, 60, 60);
+    background-color: rgb(110, 106, 106);
     color: white;
     align-items: center;
     justify-content: space-between;
@@ -137,8 +140,8 @@ padding: 200px 12px;
 
 #nuestros-servicios .container{
    margin: 0;
-   height: 35vh;
-   padding: 150px 12px;
+   height: 50vh;
+   padding: 50px 50px;
    
 }
 
@@ -149,8 +152,7 @@ padding: 200px 12px;
 
 #nuestros-servicios p{
     display:none;
-    margin: bottom 10px;
-    font-size:1em;
+    margin: bottom 20px;
     text-align: justify;
     
 
@@ -202,13 +204,13 @@ padding: 200px 12px;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-    padding: 50px 3px;
+ padding: 150px 30px;
 }
 
 #final li{
     margin: 4px 0px;
     font-weight: bold;
-    height: 1vh;
+    height: 3.5vh;
 }
 
 #contacto{
@@ -219,12 +221,12 @@ align-items: center;
     text-align: center;
     background-color: rgb(30,30,30);
     color: white;
-    height: 30vh;
+    height: 50vh;
 }
 
 
 #contacto button{
-    font-size: 1em;
+    font-size: 3em;
 }
 
 footer{
@@ -238,10 +240,10 @@ footer p{
 }
 
 footer .container{
-    height: 40px;
+    height: 150px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: center center;
+    align-items:center;
 }
 
 @media (min-width: 50px){
@@ -258,11 +260,11 @@ footer .container{
     header nav{
         flex-direction: row;
         padding-bottom: 0;
-        padding-right: 5px;
+        padding-right: 0px;
     }
 
     #hero h1{
-        font-size: 2em;
+        font-size: 5em;
     }
 
     #somos .container{
@@ -275,8 +277,8 @@ footer .container{
     #somos .texto{
         
       height: 100%;
-       width: 100%;
-      max-width: 150px;
+       width: 400%;
+      max-width: 300px;
       padding-left: 0px;
       display: flex;
       flex-direction: column;
